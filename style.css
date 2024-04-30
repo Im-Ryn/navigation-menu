@@ -61,6 +61,7 @@ body{
     text-align: center;
     transition: 0.5s;
     color: var(--clr);
+    user-select: none;
 }
 
 .navigation ul li.active a .icon{
