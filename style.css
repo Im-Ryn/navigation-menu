@@ -53,6 +53,10 @@ body{
     text-align: center;
 }
 
+.icon::selection {
+    text-decoration: none;
+}
+
 .navigation ul li a .icon{
     position: relative;
     display: block;
@@ -61,7 +65,6 @@ body{
     text-align: center;
     transition: 0.5s;
     color: var(--clr);
-    user-select: none;
 }
 
 .navigation ul li.active a .icon{
